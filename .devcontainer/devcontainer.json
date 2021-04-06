@@ -1,0 +1,21 @@
+{
+  "name": "gcp-node",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "14-buster"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "joelday.docthis",
+  ],
+  "postCreateCommand": "yarn install", // コンテナイメージのビルド後にsetup
+  // "forwardPorts": [],
+  // "remoteUser": "node"
+}

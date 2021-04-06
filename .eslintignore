@@ -1,0 +1,6 @@
+# ビルド後のソースは不要。なお node_modules 配下は予め無視される
+dist/**
+# webpack設定ファイルは無視
+webpack.*.js
+# eslint設定ファイルは無視
+.eslintrc.js
