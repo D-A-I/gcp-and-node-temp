@@ -15,14 +15,14 @@
     "▽▽▽ Jest ▽▽▽": "",
     "test": "jest"
   },
-  "repository": "git+https://github.com/D-A-I/kurumi-crawler.git",
+  "repository": "git+https://github.com/D-A-I/gcp-and-node-temp.git",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/D-A-I/kurumi-crawler/issues"
+    "url": "https://github.com/D-A-I/gcp-and-node-temp/issues"
   },
-  "homepage": "https://github.com/D-A-I/kurumi-crawler#readme",
+  "homepage": "https://github.com/D-A-I/gcp-and-node-temp#readme",
   "dependencies": {
     "dayjs": "^1.10.4",
     "typescript": "^4.1.3"
