@@ -23,5 +23,6 @@ COPY .devcontainer/dotfiles/.emacs.d/init.el /root/.emacs.d/init.el
 # GCP
 RUN curl https://sdk.cloud.google.com > install.sh \
   && bash install.sh --disable-prompts
+ENV PATH $PATH:/root/google-cloud-sdk/bin
 
 EXPOSE 4200
