@@ -2,7 +2,7 @@
 
 GCP + Node.js 開発環境（vscode + コンテナ）
 
-＊ ベースは [こちら](https://github.com/D-A-I/base-node-template) ..管理方法は別途検討
+＊ ベースは [こちら](https://github.com/D-A-I/base-node-template) ..元イメージを `Docker Hub` 管理にして再利用する予定
 
 ## メモ
 
